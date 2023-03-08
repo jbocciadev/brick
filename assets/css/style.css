@@ -1,0 +1,18 @@
+/* Add google fonts here */
+
+.page {
+    max-width: 1080px;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    text-decoration: none;
+}
+
+#hero-image {
+    background: url(../images/hero-image.jpg) no-repeat center center;
+}
