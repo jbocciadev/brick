@@ -1,0 +1,5 @@
+Issue: Elements do not align correctly, leaving a gap to the left.
+Resolution: Removed div around logo and removed margin at the bottom of logo.
+
+Issue:
+Resolution:
