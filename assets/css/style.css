@@ -1,4 +1,5 @@
 /* Add google fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 /*
 .page {
     max-width: 1080px;
@@ -11,9 +12,14 @@
     border: none;
 }
 
+body {
+    margin-top: 1%;
+}
+
 h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #956851;
+    font-weight: 100;
 }
 
 #logo-container {
@@ -25,23 +31,33 @@ h1, h2 {
     font-size: 200%;
     float: left;
     margin-bottom: 50%;
-    height: auto;
+    /* height: auto; */
 }
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 70px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    color:#36312c;
+}
+
+#menu li:hover {
+    /* border: 2px double #36312c; */
+    background-color: #956851;
+    color: #939d99;
 }
 
 #menu a {
     text-decoration: none;
+    font-family: Roboto, sans-serif;
     font-size: 110%;
+    padding: 0.25rem;
+    color: inherit;
 }
 
 
