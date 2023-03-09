@@ -1,18 +1,61 @@
 /* Add google fonts here */
-
+/*
 .page {
     max-width: 1080px;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: none;
+    color: #956851;
 }
 
-header {
+#logo-container {
+    
+}
+
+#logo {
     text-decoration: none;
+    font-size: 200%;
+    float: left;
+    margin-bottom: 50%;
+    height: auto;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 110%;
+}
+
+
+#hero-outer {
+    height: 400px;
+    max-width: 100%;
+    /* overflow: hidden; */
+    /* position: relative; */
 }
 
 #hero-image {
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    width: 120%;
+    height: 100%;
+    /* resize: both; */
+    background: url(../images/hero-image3.jpg) no-repeat center center;
+    background-size: 100%;
 }
