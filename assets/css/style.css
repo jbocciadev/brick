@@ -14,6 +14,7 @@
 
 body {
     font-weight: 300;
+    margin-top: 10px;
 }
 
 h1, h2 {
@@ -32,13 +33,15 @@ h1, h2 {
 #menu,
 #logo {
     line-height: 70px;
+    margin-bottom: 5px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    padding: 0 30px;
     color:#36312c;
+    border-radius: 5px;
 }
 
 #menu li:hover {
@@ -62,29 +65,30 @@ h1, h2 {
 }
 
 #hero-image {
-    background: url(../images/hero-image3.jpg) no-repeat center center;
-    background-size: 100%;
     width: 100%;
     height: 300px;
+    background: url('../images/hero-image3.jpg') no-repeat center center;
+
 }
 
 #intro-text {
     font-size: 100%;
     font-family: roboto, sans-serif;
     letter-spacing: 4px;
-    padding: 3%;
-    max-height: 150px;
-    max-width: 300px;
+    height: 150px;
+    width: 300px;
     background-color: rgba(54, 49, 44, .9);
     border-radius: 5px;
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     left: 33%;
+    color: #939d99;
+    padding: 1%;
 }
 
 #intro-text h2 {
     text-align: center;
-    font-size: 120%;
+    font-size: 150%;
     margin-bottom: 10px;
 }
 
@@ -100,9 +104,10 @@ h1, h2 {
     margin: auto;
     border: 3px solid #36312c;
     border-radius: 3px;
+    margin-top: 1%;
+
 }
 
 #intro-video {
     width: 33%;
-
 }
