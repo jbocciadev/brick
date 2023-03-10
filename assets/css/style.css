@@ -106,18 +106,27 @@ h1, h2 {
     border: 3px solid #36312c;
     border-radius: 3px;
     margin-top: 1%;
-
 }
 
-#intro-video {
-    width: 33%;
+
+#card-section {
+    background-color: #939d99;
 }
 
 #card-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 5% 0;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .card {
-    text-align: justify;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 250px;
+
+
 }
