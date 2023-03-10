@@ -6,3 +6,4 @@ Resolution:
 
 birme.net for image reformatting
 unsplage for open-source images
+freecodecamp for responsive layout (units in vw)
