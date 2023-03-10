@@ -84,6 +84,7 @@ h1, h2 {
     left: 33%;
     color: #939d99;
     padding: 1%;
+    text-align: justify;
 }
 
 #intro-text h2 {
@@ -110,4 +111,13 @@ h1, h2 {
 
 #intro-video {
     width: 33%;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    text-align: justify;
 }
