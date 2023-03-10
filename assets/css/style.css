@@ -126,16 +126,40 @@ h1, h2 {
     border-radius: 5px;
     box-shadow: 3px 4px 4px #000;
     height: 300px;
-    width: 250px;
+    width: 20vw;
 }
+/* .card:hover {
+    position: relative;
+} */
 
 #card1 {
-    background-image: url(../images/card1-image.webp);
+    background-image: url(../images/card1-imageB.webp);
 }
 
 #card2 {
-    background-image: url(../images/card2-image.webp);
+    background-image: url(../images/card2-imageB.webp);
 }
 #card3 {
-    background-image: url(../images/card3-image.webp);
+    background-image: url(../images/card3-imageB.webp);
 }
+
+
+.card-data {
+    background-color: rgba(54, 49, 44, 0.75);
+    height: 300px;
+    width: 20vw;
+    text-align: center;
+    position: absolute;
+}
+
+.card-data h2 {
+    color: #956851;
+    font-size: 3vw;
+}
+
+.card-data p {
+    color: #939d99;
+    font-size: 2vw;
+}
+
+
