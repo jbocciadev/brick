@@ -3,3 +3,6 @@ Resolution: Removed div around logo and removed margin at the bottom of logo.
 
 Issue:
 Resolution:
+
+birme.net for image reformatting
+unsplage for open-source images
