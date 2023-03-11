@@ -145,7 +145,7 @@ h1, h2 {
 
 
 .card-data {
-    background-color: rgba(54, 49, 44, 0.75);
+    background-color: rgba(54, 49, 44, 0.7);
     height: 10vw;
     width: 20vw;
     text-align: center;
@@ -163,3 +163,7 @@ h1, h2 {
 }
 
 
+footer {
+    height: 10vw;
+    background-color: #956851;
+}

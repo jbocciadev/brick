@@ -5,5 +5,7 @@ Issue:
 Resolution:
 
 birme.net for image reformatting
-unsplage for open-source images
+unsplash and pexels for open-source images
 freecodecamp for responsive layout (units in vw)
+digitalocean for grid css
+w3schools for html and css (Too much to list)
