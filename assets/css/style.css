@@ -164,6 +164,30 @@ h1, h2 {
 
 
 footer {
-    height: 10vw;
+    height: 5vw;
     background-color: #956851;
+}
+
+footer a,p {
+    color:#36312c;
+    text-decoration: none;
+}
+
+#socials {
+    text-align: center;
+    max-width: 33vw;
+    margin-left: 33vw;
+}
+
+#socials>li {
+    display: inline;
+}
+
+#socials i {
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+#socials a {
+    text-decoration: none;
 }
