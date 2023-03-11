@@ -17,7 +17,8 @@ body {
     margin-top: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #956851;
     font-weight: 100;
@@ -40,7 +41,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     padding: 0 30px;
-    color:#36312c;
+    color: #36312c;
     border-radius: 5px;
 }
 
@@ -139,10 +140,10 @@ h1, h2 {
 #card2 {
     background-image: url(../images/card2-imageB.webp);
 }
+
 #card3 {
     background-image: url(../images/card3-imageB.webp);
 }
-
 
 .card-data {
     background-color: rgba(54, 49, 44, 0.7);
@@ -168,8 +169,9 @@ footer {
     background-color: #956851;
 }
 
-footer a,p {
-    color:#36312c;
+footer a,
+p {
+    color: #36312c;
     text-decoration: none;
 }
 
