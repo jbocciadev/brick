@@ -157,16 +157,19 @@ h2 {
     font-size: 3vw;
 }
 
-.card-data p, li {
+.card-data p,
+li {
     color: #000;
+    font-family: roboto, 'Times New Roman', Times, serif;
     font-size: 1.5vw;
+    font-weight: 600;
     text-align: justify;
-    padding: 0.7vw;
+    padding: 0.2vw 0.7vw;
 }
+
 .card-data li {
     margin-left: 2vw;
 }
-
 
 footer {
     height: 6vw;
