@@ -13,3 +13,5 @@ favicon.io for favicon
 fontawesome for social media link icons
 vandersanden.com hablakilns.com for info on prod of brick
 The wikimedia community for pics
+
+Known bug: social media icons not displaying properly on gallery page

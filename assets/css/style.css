@@ -172,9 +172,43 @@ li {
     margin-left: 2vw;
 }
 
+
+/* css for gallery */
+
+#photos {
+    clear: both;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 0;
+    margin-bottom: 1vw;
+}
+
+.tile {
+    display: inline-block;
+}
+
+.tile img {
+    width: 100%;
+}
+
+.tile p {
+    min-height: 1vw;
+    max-width: 25vw;
+    margin: .1vw 0;
+    padding: 0 .5vw;
+    font-family: roboto, 'Times New Roman', Times, serif;
+
+}
+
+/* css for footer */
+
+
 footer {
-    height: 6vw;
+    padding-top: 3vw;
+    height: 5vw;
     background-color: #956851;
+    font-family: roboto, 'Times New Roman', Times, serif;
+
 }
 
 footer a,
@@ -200,11 +234,4 @@ p {
 
 #socials a {
     text-decoration: none;
-}
-
-/* css for gallery */
-
-figcaption {
-    font-size: 0.7vw;
-    text-align: center;
 }
