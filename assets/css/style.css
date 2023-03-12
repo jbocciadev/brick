@@ -45,6 +45,7 @@ h2 {
     border-radius: 5px;
 }
 
+
 #menu li:hover {
     background-color: #956851;
     color: #939d99;
@@ -199,4 +200,11 @@ p {
 
 #socials a {
     text-decoration: none;
+}
+
+/* css for gallery */
+
+figcaption {
+    font-size: 0.7vw;
+    text-align: center;
 }
