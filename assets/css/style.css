@@ -102,13 +102,18 @@ h2 {
 
 #video-container {
     display: grid;
-    width: fit-content;
+    width: 33vw;
     grid-template-columns: auto auto auto;
     justify-content: center;
     margin: auto;
     border: 3px solid #36312c;
     border-radius: 3px;
     margin-top: 1%;
+}
+
+#factory-video {
+    width: 33vw;
+    height: 20vw;
 }
 
 
@@ -219,7 +224,7 @@ li {
 
 
 footer {
-    padding-top: 3vw;
+    padding-top: 1vw;
     height: 5vw;
     background-color: #956851;
     font-family: roboto, 'Times New Roman', Times, serif;
@@ -230,6 +235,7 @@ footer a,
 p {
     color: #36312c;
     text-decoration: none;
+    text-align: center;
 }
 
 #socials {
@@ -250,3 +256,5 @@ p {
 #socials a {
     text-decoration: none;
 }
+
+/* media queries for smaller screen sizes - 600px and 280px */
