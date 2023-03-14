@@ -241,7 +241,7 @@ li {
 #contact-form {
     width: 33vw;
     height: 33vw;
-    top: 20vw;
+    top: 15vw;
     left: 5vw;
     padding: 1vw;
     background-color: rgba(54, 49, 44, .9);
@@ -262,18 +262,36 @@ label {
 
 }
 input, textarea {
-    background-color: transparent;
+    background-color: rgba(147, 157, 153, .6);
     border: 2px solid #939d99;
     border-radius: 5px;
-    float: right;
     width: 100%;
     height: 2vw;
     margin-bottom: 1vw;
+    color: #000;
+    font-weight: bold;
+    font-family: roboto, 'Times New Roman', Times, serif;
+
 }
 
 textarea {
-    height: 4vw;
+    height: 8vw;
     background-color: rgba(147, 157, 153, .6);
+}
+
+#submit-btn {
+    position: absolute;
+    max-width: 33vw;
+    bottom: 1vw;
+    color: #000;
+    font-weight: bold;
+    font-family: roboto, 'Times New Roman', Times, serif;
+}
+
+input:hover, textarea:hover {    
+    background-color: #939d99;
+    color: #000;
+    font-family: roboto, 'Times New Roman', Times, serif;
 }
 
 /* #fname {
@@ -283,9 +301,18 @@ textarea {
 #map {
     width: 35vw;
     height: 35vw;
-    top: 20vw;
+    top: 15vw;
     right: 5vw;
     position: absolute;
+    background-color: #fff;
+}
+#address {
+    height: 2vw;
+    background-color: inherit;
+    position: absolute;
+    bottom: 0.5vw;
+    width: 100%;
+    text-align: center;
 }
 
 
