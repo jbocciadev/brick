@@ -1,10 +1,5 @@
 /* Add google fonts here */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/*
-.page {
-    max-width: 1080px;
-}
-*/
 
 * {
     margin: 0;
@@ -141,7 +136,6 @@ h2 {
     box-shadow: 3px 4px 4px #000;
     height: 30vw;
     width: 20vw;
-    /* bottom: 5vw; */
 }
 
 #card1 {
@@ -194,7 +188,6 @@ li {
     row-gap: 2vw;
     margin-bottom: 1vw;
     margin-left: 2vw;
-    /* padding-top: 2vw; */
 }
 
 .tile {
@@ -207,7 +200,6 @@ li {
 }
 
 .tile img {
-    /* width: 100%; */
     height: 20vw;
     width: 20vw;
     border-radius: 5px;
@@ -234,8 +226,6 @@ li {
     background-size: cover;    
     overflow: hidden;
     
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto; */
 }
 
 #contact-form {
@@ -294,10 +284,6 @@ input:hover, textarea:hover {
     font-family: roboto, 'Times New Roman', Times, serif;
 }
 
-/* #fname {
-    float: right;
-} */
-
 #map {
     width: 35vw;
     height: 35vw;
@@ -306,6 +292,12 @@ input:hover, textarea:hover {
     position: absolute;
     background-color: #fff;
 }
+
+#map iframe {
+    height: 90%;
+    width: 100%;
+}
+
 #address {
     height: 2vw;
     background-color: inherit;
