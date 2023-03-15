@@ -19,7 +19,7 @@ header {
 h1,
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #956851;
+    color: #a34c1f;
     font-weight: 100;
 }
 
@@ -40,14 +40,14 @@ h2 {
     float: right;
     list-style-type: none;
     padding: 0 30px;
-    color: #36312c;
+    color: #000109;
     border-radius: 5px;
 }
 
 
 #menu li:hover {
-    background-color: #956851;
-    color: #939d99;
+    background-color: #a34c1f;
+    color: #a3b2ad;
 }
 
 #menu a {
@@ -84,7 +84,7 @@ h2 {
     position: absolute;
     bottom: 10vw;
     left: 33%;
-    color: #939d99;
+    color: #a3b2ad;
     padding: 1%;
     text-align: justify;
 }
@@ -106,7 +106,7 @@ h2 {
     grid-template-columns: auto auto auto;
     justify-content: center;
     margin: auto;
-    border: 3px solid #36312c;
+    border: 3px solid #6b7471;
     border-radius: 3px;
     margin-top: 1%;
 }
@@ -118,7 +118,7 @@ h2 {
 
 
 #card-section {
-    background-color: #36312c;
+    background-color: #6b7471;
     height: 30vw;
     padding: 5vw 0;
     margin: 1% 0;
@@ -246,7 +246,7 @@ li {
     padding: 1vw;
     background-color: rgba(54, 49, 44, .9);
     position: absolute;
-    color: #939d99;
+    color: #a3b2ad;
     font-weight: bold;
     display: block;
 }
@@ -263,7 +263,7 @@ label {
 }
 input, textarea {
     background-color: rgba(147, 157, 153, .6);
-    border: 2px solid #939d99;
+    border: 2px solid #a3b2ad;
     border-radius: 5px;
     width: 100%;
     height: 2vw;
@@ -291,7 +291,7 @@ textarea {
 }
 
 input:hover, textarea:hover {    
-    background-color: #939d99;
+    background-color: #a3b2ad;
     color: #000;
     font-family: roboto, 'Times New Roman', Times, serif;
 }
@@ -326,14 +326,14 @@ input:hover, textarea:hover {
 footer {
     padding-top: 1vw;
     height: 5vw;
-    background-color: #956851;
+    background-color: #a34c1f;
     font-family: roboto, 'Times New Roman', Times, serif;
 
 }
 
 footer a,
 p {
-    color: #36312c;
+    color: #000109;
     text-decoration: none;
     text-align: center;
 }
