@@ -326,7 +326,7 @@ textarea:hover {
 
 footer {
     padding-top: 1vw;
-    height: 5vw;
+    height: 6vw;
     background-color: #a34c1f;
     font-family: roboto, 'Times New Roman', Times, serif;
 }
@@ -382,6 +382,23 @@ p {
 
     .tile p {
         font-size: 0.7rem;
+    }
+
+    form h2 {
+        font-size: 2vw;
+    }
+
+    textarea {
+        height: 5.5vw;
+    }
+
+    #map iframe {
+        height: 85%;
+    }
+
+    #address {
+        font-size: 1.7vw;
+        padding-bottom: 1.5vw;
     }
 
 }
