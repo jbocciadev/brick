@@ -277,7 +277,6 @@ textarea {
 }
 
 #submit-btn {
-    /* position: absolute; */
     display: block;
     width: 100%;
     height: fit-content;
@@ -319,16 +318,13 @@ textarea:hover {
     font-family: roboto, 'Times New Roman', Times, serif;
 }
 
-
 /* css for footer */
-
 
 footer {
     padding-top: 1vw;
     height: fit-content;
     background-color: #a34c1f;
     font-family: roboto, 'Times New Roman', Times, serif;
-
 }
 
 footer a,
@@ -545,6 +541,20 @@ p {
     }
 
     /* contact */
+        /* form */
+
+    input, textarea {
+        height: 6vw;
+    }
+
+    #map {
+        height: 30%;
+    }
+
+    /* #address p {
+        font-size: 3vw;
+    } */
+    
 
 
 }
