@@ -156,6 +156,7 @@ h2 {
     width: 20vw;
     text-align: center;
     position: absolute;
+    border-radius: 5px;
 }
 
 .card-data h2 {
@@ -313,6 +314,7 @@ input:hover, textarea:hover {
     bottom: 0.5vw;
     width: 100%;
     text-align: center;
+    font-family: roboto, 'Times New Roman', Times, serif;
 }
 
 
@@ -353,4 +355,34 @@ p {
     text-decoration: none;
 }
 
-/* media queries for smaller screen sizes - 600px and 280px */
+/* media queries for smaller screen sizes - 900px 600px 280px */
+
+@media screen and (max-width:900px) {
+
+    /* home page */
+    
+    #card-section {
+        height: fit-content;
+    }
+    #card-container {
+        grid-template-columns: auto;
+    }
+    .card {
+        margin-bottom: 1%;
+        }
+    .card, .card-data {
+        height: 25vw;
+        width: 70vw;
+    }
+    .card-data p, li {
+        font-size: 1rem;
+    }
+    .card-data h2 {
+        font-size: 1.5rem;
+    }
+
+    /* gallery */
+
+    /* contact */
+    
+}
