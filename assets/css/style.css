@@ -363,6 +363,24 @@ p {
 
         /* hero intro text */
 
+        #intro-text {
+            letter-spacing: .1vw;
+            height: fit-content;
+            width: fit-content;
+            left: auto;
+            margin: 20% 20% 0 20%;
+        }
+        
+
+        #intro-text h2 {
+            text-align: center;
+            font-size: 2rem;
+        }
+        #intro-text h3 {
+            font-size: .8rem;
+
+        }
+
         /* cards */
             #card-section {
                 height: fit-content;
@@ -379,6 +397,9 @@ p {
             }
             .card-data p, li {
                 font-size: 1rem;
+            }
+            .card-data li {
+                margin-left: 10%;
             }
             .card-data h2 {
                 font-size: 1.5rem;
