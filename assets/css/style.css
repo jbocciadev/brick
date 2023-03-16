@@ -415,6 +415,10 @@ p {
 
     /* gallery */
 
+        #photos {
+            grid-template-columns: auto auto auto;
+        }        
+
     /* contact */
 
             /* form */
