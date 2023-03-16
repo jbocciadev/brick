@@ -1,5 +1,7 @@
-/* Add google fonts here */
+/* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* basic page setup */
 
 * {
     margin: 0;
@@ -11,6 +13,8 @@ body {
     font-weight: 300;
     margin-top: 10px;
 }
+
+/* logo and top menu bar */
 
 header {
     height: 7vw;
@@ -59,6 +63,8 @@ h2 {
     width: 100%;
 }
 
+/* hero image and intro text */
+
 #hero-outer {
     position: relative;
     width: 100%;
@@ -98,6 +104,8 @@ h2 {
     font-size: 1.5vw;
 }
 
+/* video */
+
 #video-container {
     display: grid;
     width: fit-content;
@@ -114,6 +122,7 @@ h2 {
     height: 20vw;
 }
 
+/* cards */
 
 #card-section {
     background-color: #000109;
@@ -177,8 +186,7 @@ li {
     margin-left: 2vw;
 }
 
-
-/* css for gallery */
+/* gallery */
 
 #photos {
     clear: both;
@@ -219,8 +227,7 @@ li {
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
-/* css for contact form */
-
+/*  contact form */
 
 #form-section {
     width: 100%;
@@ -294,6 +301,8 @@ textarea:hover {
     font-family: roboto, 'Times New Roman', Times, serif;
 }
 
+/* map */
+
 #map {
     width: 35vw;
     height: 35vw;
@@ -318,7 +327,7 @@ textarea:hover {
     font-family: roboto, 'Times New Roman', Times, serif;
 }
 
-/* css for footer */
+/* footer */
 
 footer {
     padding-top: 1vw;
@@ -353,7 +362,7 @@ p {
     text-decoration: none;
 }
 
-/* media queries for smaller screen sizes - 900px 600px 280px */
+/* media queries for  <900px & <600px up to 280px */
 
 @media screen and (max-width:900px) {
 
@@ -369,7 +378,6 @@ p {
         left: auto;
         margin: 20% 20% 0 20%;
     }
-
 
     #intro-text h2 {
         text-align: center;
@@ -550,11 +558,5 @@ p {
     #map {
         height: 30%;
     }
-
-    /* #address p {
-        font-size: 3vw;
-    } */
-    
-
 
 }
