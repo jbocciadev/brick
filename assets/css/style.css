@@ -531,8 +531,18 @@ p {
 
     }
 
-
     /* gallery */
+    #photos {
+        width: 100%;
+        grid-template-columns: auto ;
+    }
+    .tile {
+        width: 70%;
+    }
+    .tile img {
+        width: 100%;
+        height: auto;
+    }
 
     /* contact */
 
