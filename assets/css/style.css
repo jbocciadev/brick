@@ -101,7 +101,7 @@ h2 {
 
 #video-container {
     display: grid;
-    width: 33vw;
+    width: fit-content;
     grid-template-columns: auto auto auto;
     justify-content: center;
     margin: auto;
@@ -348,7 +348,7 @@ p {
 
 #socials i {
     padding: 1vw;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 #socials a {
@@ -358,6 +358,7 @@ p {
 /* media queries for smaller screen sizes - 900px 600px 280px */
 
 @media screen and (max-width:900px) {
+
 
     /* home page */
 
@@ -379,6 +380,13 @@ p {
         #intro-text h3 {
             font-size: .8rem;
 
+        }
+
+        /* video */
+
+        #factory-video {
+            width: 70vw;
+            height: auto;    
         }
 
         /* cards */
