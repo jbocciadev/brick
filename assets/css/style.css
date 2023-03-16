@@ -439,14 +439,34 @@ p {
             #contact-form {
                 top: 5%;
             }
+}
 
-            /* #map {
-                right: auto;
-                top: auto;
-                position: relative;
-            } */
+@media screen and (max-width:600px) {
+    /* home */
+
+    #logo {
+        font-size: 5vw;
+        margin-top: 5px;
+    }
 
 
-            
-    
+    #menu {
+        clear: both;
+        float: left;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    #menu li{
+        max-width: 33vw;
+        padding: 1vw;
+    }
+    #menu a {
+        font-size: 4vw;
+    }
+
+    /* gallery */
+
+    /* contact */
+
+
 }
