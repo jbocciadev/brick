@@ -307,7 +307,7 @@ input:hover, textarea:hover {
 }
 
 #address {
-    height: 2vw;
+    height: fit-content;
     background-color: inherit;
     position: absolute;
     bottom: 0.5vw;
