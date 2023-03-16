@@ -360,26 +360,29 @@ p {
 @media screen and (max-width:900px) {
 
     /* home page */
-    
-    #card-section {
-        height: fit-content;
-    }
-    #card-container {
-        grid-template-columns: auto;
-    }
-    .card {
-        margin-bottom: 1%;
-        }
-    .card, .card-data {
-        height: 25vw;
-        width: 70vw;
-    }
-    .card-data p, li {
-        font-size: 1rem;
-    }
-    .card-data h2 {
-        font-size: 1.5rem;
-    }
+
+        /* hero intro text */
+
+        /* cards */
+            #card-section {
+                height: fit-content;
+            }
+            #card-container {
+                grid-template-columns: auto;
+            }
+            .card {
+                margin-bottom: 1%;
+                }
+            .card, .card-data {
+                height: 25vw;
+                width: 70vw;
+            }
+            .card-data p, li {
+                font-size: 1rem;
+            }
+            .card-data h2 {
+                font-size: 1.5rem;
+            }
 
     /* gallery */
 
