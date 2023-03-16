@@ -186,8 +186,10 @@ li {
     grid-template-columns: auto auto auto auto;
     column-gap: 0.5vw;
     row-gap: 2vw;
-    margin-bottom: 1vw;
-    margin-left: 2vw;
+    margin: 1vw 0;
+    background: url(../images/hero-image.webp);
+    background-size: contain;
+    padding: 2vw;
 }
 
 .tile {
@@ -197,6 +199,7 @@ li {
     padding: 1vw;
     border: 1px solid #000;
     box-shadow: 3px 4px 4px #000;
+    background-color: #fff;
 }
 
 .tile img {
