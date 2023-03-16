@@ -194,12 +194,13 @@ li {
 
 .tile {
     display: inline-block;
-    height: 23vw;
+    height: fit-content;
     width: 20vw;
     padding: 1vw;
-    border: 1px solid #000;
+    border: 1px solid #000109;
     box-shadow: 3px 4px 4px #000;
     background-color: #fff;
+    justify-self: center;
 }
 
 .tile img {
@@ -210,12 +211,11 @@ li {
 }
 
 .tile p {
-    min-height: 1vw;
-    max-height: 3vw;
-    max-width: 20vw;
+    height: fit-content;
+    max-width: 100%;
     margin: .1vw 0;
     padding: 0 .5vw;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
