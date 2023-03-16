@@ -227,13 +227,12 @@ li {
     height: 50vw;
     background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;    
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 #contact-form {
     width: 33vw;
-    height: 33vw;
+    height: fit-content;
     top: 15vw;
     left: 5vw;
     padding: 1vw;
@@ -246,12 +245,14 @@ li {
 
 form h2 {
     margin-bottom: 1vw;
+    font-size: 1.8rem;
 }
 
 label {
     width: 100%;
     display: block;
     font-family: roboto, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 
 }
 input, textarea {
@@ -264,20 +265,24 @@ input, textarea {
     color: #000;
     font-weight: bold;
     font-family: roboto, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 
 }
 
 textarea {
-    height: 8vw;
+    height: 4vw;
     background-color: rgba(147, 157, 153, .6);
 }
 
 #submit-btn {
-    position: absolute;
-    max-width: 33vw;
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: fit-content;
     bottom: 1vw;
     color: #000;
     font-weight: bold;
+    font-size: 1rem;
     font-family: roboto, 'Times New Roman', Times, serif;
 }
 
