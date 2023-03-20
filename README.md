@@ -86,6 +86,7 @@ In this section, you need to convince the assessor that you have conducted enoug
   - mobile
 - html validator
 - css validator
+- Performance tests (Lighthouse)
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
