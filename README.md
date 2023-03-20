@@ -5,65 +5,64 @@ Brick is a tribute page to the clay brick, an object that is continually underes
 ![Responsive Mockup](/assets/images/media/brick_mockup.PNG)
 <!-- 
 ## [__Testing__](#testing)
-- ### [__Some other section__](#heading)
-
-## Features  -->
+- ### [__Some other section__](#heading)  -->
 
 Brick is a fully-responsive website that follows the same structure throughout for ease of navigation and a better user experience. Since the topic at hand is such a visually evoking object, the rectangular shape is maintained and repeated in multiple elements of the site.
 
-### Existing Features
+## Features
 
-- __Title Tab__
+- ### __Title Tab__
 
   - Repeated throughout the site, the tite tab displays an icon with the image of a red brick in white background as a friendly reminder for the user.
 
 ![Title tab with favicon](/assets/images/media/title_with_favicon.PNG)
 
-- __Navigation Bar__
+- ### __Navigation Bar__
 
   - Maintained in the same position in all three pages, the simplistic navbar helps the user navigate effortlessly around the page with ease. 
 
 ![Nav Bar](/assets/images/media/navbar.PNG)
 
-- __The landing page introduction__
+- ### __The landing page introduction__
 
   - As a hero image, a picture of an aged red brick wall was chosen. This image aims at bringing the user's attention to the brick itself, and connect with their lifetime memories of brick walls.
   - The intrductory text, short and clear, invites the user to reflect on the many times they may have seen and felt red bricks used in many of its forms.
 
 ![Landing Page](/assets/images/media/landing_page_hero.PNG)
 
-- __Factory Video Section__
+- ### __Factory Video Section__
 
   - The video section informs and instructs the user on the modern fabrication of clay bricks. 
   - The aim of this section is toanswer some questions the user may have, maybe give way to new questions and, hopefully, awaken the user's interest for the topic at hand. 
 
-![Factory Video](/assets/images/media/factory_video.PNG )
+![Factory Video](/assets/images/media/factory_video.PNG)
 
-- __Infocards Section__
+- ### __Infocards Section__
 
   - Here, the user is presented with three cards that provide additional information in the form of fun-facts.  
 
-![Fun Facts](/assets/images/media/facts.PNG )
+![Fun Facts](/assets/images/media/facts.PNG)
 
-- __The Footer__ 
+- ### __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for Brick. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]( /assets/images/media/footer.PNG)
 
-- __Gallery__
+- ### __Album__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - Resembling an analogue photo album, the Album section presents images in a retro format similar to that of instant photographs. 
+  - This section will allow the user to see the different uses bricks can have, especially where they are used for decorative purposes. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Album](/assets/images/media/album.PNG)
 
-- __The Sign Up Page__
+- ### __Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to contact the site owner by means of a contact form which includes a free-text field inviting the user to share their thoughts.
+  - Along with the form, the Contact page displays the address and a map to Queen's University, Belfast, twhere the organization behind the site can be found.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](/assets/images/media/contact.PNG)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
