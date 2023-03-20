@@ -1,4 +1,4 @@
-# Brick
+# [Brick](https://jbocciadev.github.io/brick/index.html)
 
 Brick is a tribute page to the clay brick, an object that is continually underestimated and underappreciated, and, after millennia, has revealed itself as one of the most crucial inventions for the development of humankind.
 
