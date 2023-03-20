@@ -64,17 +64,28 @@ Brick is a fully-responsive website that follows the same structure throughout f
 
 ![Sign Up](/assets/images/media/contact.PNG)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+### __Features Left to Implement__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
+- Events calendar
+  - In a future version, an events calendar can be developed, with both virtual and in-person events.
+- Contributions to the Album
+  - With a functioning backend, visitors to the site could potentially upload their own images with captions to the Album.
 
 ## Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+- Logo (different browsers)
+- navigation links (_blank + href)
+- video
+- footer links
+- form mandatory fields
+- responsive design:
+  - desktop
+  - tablet
+  - mobile
+- html validator
+- css validator
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
