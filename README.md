@@ -62,7 +62,7 @@ Brick is a fully-responsive website that follows the same structure throughout f
   - This page will allow the user to contact the site owner by means of a contact form which includes a free-text field inviting the user to share their thoughts.
   - Along with the form, the Contact page displays the address and a map to Queen's University, Belfast, twhere the organization behind the site can be found.
 
-![Sign Up](/assets/images/media/contact.PNG)
+![Contact](/assets/images/media/contact.PNG)
 
 ### __Features Left to Implement__
 
@@ -71,40 +71,74 @@ Brick is a fully-responsive website that follows the same structure throughout f
 - Contributions to the Album
   - With a functioning backend, visitors to the site could potentially upload their own images with captions to the Album.
 
+## Design principles
+
+
+
+
+
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### __Site elements:__
+  - #### Favicon
+    - Check that the favicon is displayed correctly in different web browsers:
+      - Chrome for desktop. 
+      - Chrome for mobile.
+      - Safari for mobile.
 
-- Logo (different browsers)
-- navigation links (_blank + href)
-- video
-- footer links
-- form mandatory fields
-- responsive design:
-  - desktop
-  - tablet
-  - mobile
-- html validator
-- css validator
-- Performance tests (Lighthouse)
+  - #### Navigation links
+    - Check that hyperlinks behind logo and navigation bar are fully functional.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+  - #### Video
+    - Check that YouTube video is working correctly.
+ 
+  - #### Footer links
+    - Check that hyperlinks in the foter work correctly:
+      - The url is correct.
+      - The link is opened in a new page.
+    
+  - #### Form fields
+    - Check that form fields behave accordingly:
+      - First Name, mandatory.
+      - Last Name, mandatory.
+      - Email, mandatory - Check that the user input is a valid email address.
+      - Comment, optional.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### __Responsive design__
+  - Check that the various elements on the site are displayed correctly and adapt based on the size of the screen they are viewed in:
+    - Desktop.
+      - Landing page.
+      - Album.
+      - Contact.
+    - Tablet.
+      - Landing page.
+      - Album.
+      - Contact.
+    - Mobile.
+      - Landing page.
+      - Album.
+      - Contact.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### __Code validation__
+  - HTML validation ![](/assets/images/media/html_test.PNG)
+    Warning message ignored as a design decision, beyond scope.
+
+  - CSS validation ![](/assets/images/media/css_test.PNG)
+
+### __Performance Tests (Lighthouse)__
+  - Home page 
+  
+   ![Home page](/assets/images/media/lighthouse-home.PNG)
+
+  - Album page 
+  
+  ![Album page](/assets/images/media/lighthouse-album.PNG)
+
+  - Contact page 
+  
+  ![Contact page](/assets/images/media/lighthouse-contact.PNG)
 
 
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
@@ -115,7 +149,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://jbocciadev.github.io/brick/index.html 
 
 
 ## Credits 

@@ -12,6 +12,7 @@ w3schools for html and css (Too much to list)
 favicon.io for favicon
 fontawesome for social media link icons
 vandersanden.com hablakilns.com for info on prod of brick
-The wikimedia community for pics
+Bauhasaurus (@alejandrocsome) for inspiration - https://twitter.com/alejandrocsome *content in Spanish
+
 
 Known bug: social media icons not displaying properly on gallery page
