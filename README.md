@@ -3,40 +3,47 @@
 Brick is a tribute page to the clay brick, an object that is continually underestimated and underappreciated, and, after millennia, has revealed itself as one of the most crucial inventions for the development of humankind.
 
 ![Responsive Mockup](/assets/images/media/brick_mockup.PNG)
+<!-- 
+## [__Testing__](#testing)
+- ### [__Some other section__](#heading)
 
-## Features 
+## Features  -->
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Brick is a fully-responsive website that follows the same structure throughout for ease of navigation and a better user experience. Since the topic at hand is such a visually evoking object, the rectangular shape is maintained and repeated in multiple elements of the site.
 
 ### Existing Features
 
+- __Title Tab__
+
+  - Repeated throughout the site, the tite tab displays an icon with the image of a red brick in white background as a friendly reminder for the user.
+
+![Title tab with favicon](/assets/images/media/title_with_favicon.PNG)
+
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Maintained in the same position in all three pages, the simplistic navbar helps the user navigate effortlessly around the page with ease. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/assets/images/media/navbar.PNG)
 
-- __The landing page image__
+- __The landing page introduction__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - As a hero image, a picture of an aged red brick wall was chosen. This image aims at bringing the user's attention to the brick itself, and connect with their lifetime memories of brick walls.
+  - The intrductory text, short and clear, invites the user to reflect on the many times they may have seen and felt red bricks used in many of its forms.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](/assets/images/media/landing_page_hero.PNG)
 
-- __Club Ethos Section__
+- __Factory Video Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The video section informs and instructs the user on the modern fabrication of clay bricks. 
+  - The aim of this section is toanswer some questions the user may have, maybe give way to new questions and, hopefully, awaken the user's interest for the topic at hand. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Factory Video](/assets/images/media/factory_video.PNG )
 
-- __Meetup Times section__
+- __Infocards Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - Here, the user is presented with three cards that provide additional information in the form of fun-facts.  
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Fun Facts](/assets/images/media/facts.PNG )
 
 - __The Footer__ 
 
