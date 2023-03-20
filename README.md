@@ -3,9 +3,6 @@
 Brick is a tribute page to the clay brick, an object that is continually underestimated and underappreciated, and, after millennia, has revealed itself as one of the most crucial inventions for the development of humankind.
 
 ![Responsive Mockup](/assets/images/media/brick_mockup.PNG)
-<!-- 
-## [__Testing__](#testing)
-- ### [__Some other section__](#heading)  -->
 
 Brick is a fully-responsive website that follows the same structure throughout for ease of navigation and a better user experience. Since the topic at hand is such a visually evoking object, the rectangular shape is maintained and repeated in multiple elements of the site.
 
@@ -71,11 +68,37 @@ Brick is a fully-responsive website that follows the same structure throughout f
 - Contributions to the Album
   - With a functioning backend, visitors to the site could potentially upload their own images with captions to the Album.
 
-## Design principles
+## Design Principles
+Having such a familiar object as the sole focus for the site, it becomes apparent that this is to be the main source for inspiration. The brick is a parallelepiped - a prism consisting of six parallelograms. Therefore, all shapes in the site are to respect the rectangle as a basis.
 
+### Site structure
+  #### Landing page
+  ![Home_Wireframe](/assets/images/media/home_wireframe.PNG)
 
+  #### Album
+  ![Album_Wireframe](/assets/images/media/album_wireframe.PNG)
 
+  #### Contact page
+  ![Contact_Wireframe](/assets/images/media/contact_wireframe.PNG)
 
+### Hero image
+The hero image chosen depicts an aged brick wall, from where the colour pallette is extracted:
+  #### Hero image
+  ![Hero_Image](/assets/images/media/hero-image.webp)
+
+  #### Colour palette
+  ![Colour palette](/assets/images/media/palette-final.PNG)
+
+### Elements
+As mentioned, the elements on the site try to resemble the shape of the red clay brick:
+  #### Navigation links (when hovered-over)
+  ![Nav_links](/assets/images/media/nav_links.PNG)
+
+  #### Introductory text
+  ![Intro-text](/assets/images/media/intro-text.PNG)
+
+  #### Information cards
+  ![Infocards](/assets/images/media/facts.PNG)
 
 ## Testing 
 
