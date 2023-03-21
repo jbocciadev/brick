@@ -101,13 +101,17 @@ As mentioned, the elements on the site try to resemble the shape of the red clay
   ![Infocards](/assets/images/media/facts.PNG)
 
 ## Testing 
+Based on the data presented by [Statcounter](https://gs.statcounter.com/browser-market-share), the browsers selected for testing are:
+  - Chrome.
+  - Safari.
+  - Edge.
+  - Firefox.
+  - Chrome for mobile.
+  - Safari for mobile.
 
 ### __Site elements:__
   - #### Favicon
     - Check that the favicon is displayed correctly in different web browsers:
-      - Chrome for desktop. 
-      - Chrome for mobile.
-      - Safari for mobile.
 
   - #### Navigation links
     - Check that hyperlinks behind logo and navigation bar are fully functional.
@@ -163,16 +167,34 @@ As mentioned, the elements on the site try to resemble the shape of the red clay
 
 
 
-## Deployment
+## Git and Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+### Git Hub and Gitpod
+The development process was carried out on the [Gitpod](https://www.gitpod.io/) platform and its repository is hosted in [Jbocciadev brick repository](https://github.com/jbocciadev/brick).
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+Throughout development, the below commands were utilised to capture and store changes:
+```
+git add .
+git commit -m "Message in quotation marks."
+git push
+```
 
-The live link can be found here - https://jbocciadev.github.io/brick/index.html 
+### Deployment
+The site has been deployed in GitHub Pages. The steps taken were:
+
+1. On the Git Hub repository's main page, click on the "Settings" button.
+ 
+2. From the left-hand side menu, in the "Code and automation" section, click on "Pages".
+
+3. Within the Build and deployment area, select the below options:
+    > Source ⟶ "Deploy from a branch" 
+
+    > Branch ⟶ "main" | "/(root)"
+
+    > Click on the "Save" button
+4. After a few moments, a new box is displayed with the legend "Your sirte is live at..." and a green check mark can be seen beside the latest commit message.
+
+The live site can be found here - https://jbocciadev.github.io/brick/index.html 
 
 
 ## Credits 
