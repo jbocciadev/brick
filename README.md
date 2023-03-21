@@ -203,33 +203,26 @@ In this section you need to reference where you got your content, media and extr
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-### Content 
+### Inspiration
+- I first started seeing building elements differently after checking out Bauhasaurus [@alejandrocsome](https://twitter.com/alejandrocsome) *content in Spanish
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+### Content 
+- The information that populates the page was extracted from [Vandersanden](https://vandersanden.com) and [Hablakilns](https://hablakilns.com).
 
 ### Media
+- The Youtube video on the landing page is from [Insider](https://www.youtube.com/@Insider)'s Youtube site.
+- The images thatpopulate the site are from [Pexels](https://pexels.com) and [Unsplash](https://unsplash.com). They were optimised for the web with [Birme](https://birme.net).
+- The colour pallette was extracted using [Coolors](https://coolors.co).
+- The favicon was created using [Favicon](https://favicon.io).
+- The icons used for social media links and in the cards were sourced from [Fontawesome](https://fontawesome.com).
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+### Code
+- [freeCodeCamp](https://www.freecodecamp.org/) were a huge help in understanding responsive design, relative dimensions, and were my first camp years ago.
+- [Digitalocean](https://www.digitalocean.com/community/tutorials/css-css-grid-layout-intro) for grid css.
+- [W3Schools](https://www.w3schools.com/) were constantly open on my browser. My go-to HTML and CSS site.
+- I cannot talk code without thanking Prof. David Malan and all the crew at HarvardX's [CS50X](https://cs50.harvard.edu/x/2023/)
+- [stack __overflow__](https://stackoverflow.com/) if you code, you know ;-)
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+### Other
+- A masive thank you to my mentor, Spencer and his [5pence](https://5pence.net/) site.
+- Thank you, thank you, thank you to the staff and colleagues at [Code Institute](https://codeinstitute.net). Course content, Tutoring sessions and (especially) Slack channels.
